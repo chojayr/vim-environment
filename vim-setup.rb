@@ -1,8 +1,8 @@
 #!/usr/bin/ruby -w
 
-user = "luilav"
+#user = #input your username 
 source = "git://github.com/haridas/Dotfiles.git"
-home = "/home/#{user}"
+home = ENV['HOME']
 dotf = "#{home}/Dotfiles"
 
 Dir.chdir "#{home}"
