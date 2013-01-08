@@ -1,6 +1,11 @@
 #!/usr/bin/ruby -w
+##
+## This is to set-up vim as IDE and add plugins in your vim
+## note that this is already tested in Ubuntu Linux 
+#
+### By: Luis R. Lavina Jr.
 
-#user = #input your username 
+
 source = "git://github.com/haridas/Dotfiles.git"
 home = ENV['HOME']
 dotf = "#{home}/Dotfiles"
